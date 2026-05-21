@@ -18,7 +18,7 @@ jobs:
       - name: setup Python and Ansible
         run: |
           sudo apt update
-          sudo apt install python3-pip -y 
+          sudo apt install python3-pip 
           pip3 install ansible  
 
       - name: Add SSH Key file and Set Permission and add to known_host
